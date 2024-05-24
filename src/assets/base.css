@@ -1,0 +1,45 @@
+:root {
+    --scrollbar-background: #424242;
+    --scrollbar-color: #686868;
+    --scrollbar-border-color: #686868;
+    --color-text: #ffffff;
+    --color-background: #272b33;
+    --color-hover: #ff9800;
+    --color-background-hover: #202329;
+    --color-border: #9e9e9e;
+    --carg-background: #3c3e44;
+    --card-status-alive: #55cc44;
+    --card-status-dead: #d63d2e;
+    --card-status-unknown: #f5bc20;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--color-text);
+    background: var(--color-background);
+    line-height: 1.6;
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
